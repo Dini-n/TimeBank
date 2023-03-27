@@ -41,12 +41,12 @@ namespace Dal.functions
 
 
 
+                
+                db.Members.Add(newm);
                 newm.MemberCategories = null;
                 newm.Reports = null;
                 newm.ReportsDetails = null;
                 newm.WaitingLists = null;
-                db.Members.Add(newm);
-                
                 db.SaveChanges();
 
                 return;
