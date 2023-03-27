@@ -1,0 +1,90 @@
+<br>
+<button  mat-raised-button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" id="btnbtn" class="demo">{{btnContent}}</button>
+<div id="id01" class="modal"> 
+  <form class="modal-content animate">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+<!-- //////////////////////////////////// -->
+<h2>הצע מועמדות להיות חבר בבנק</h2>
+ 
+<form #myForm="ngForm" (ngSubmit)="onSave()">
+  <!-- הכנס שם -->
+<mat-form-field appearance="fill">    
+    <mat-label>הכנס שם</mat-label>
+    <input matInput required  [(ngModel)]="newMember.name" name="name" id="name"
+    #validName="ngModel">
+    <div class="err" *ngIf="validName.errors && (validName.dirty||validName.touched)">
+    <div *ngIf="validName.errors?.['required']"><label>שדה זה חובה</label><br></div>
+  </div>
+  </mat-form-field>
+  <br>
+  <!-- הכנס מספר טלפון  -->
+  <mat-form-field appearance="fill">    
+    <mat-label>הכנס מספר טלפון </mat-label>
+    <input matInput required  [(ngModel)]="newMember.phone" name="phone" id="phone"
+    #validPhone="ngModel" minlength="9" maxlength="10" pattern="^0\d{8}|^05\d{8}$">
+    <div class="err" *ngIf="validPhone.errors && (validPhone.dirty||validPhone.touched)">
+    <div *ngIf="validPhone.errors?.['required']"><label>שדה זה חובה</label><br></div>
+    <label *ngIf="validPhone.errors?.['minlength']"]>סיסמה מינימום 9 ספרות</label><br>
+    <label *ngIf="validPhone.errors?.['maxlength']">סיסמה מקסימום 10 ספרות</label>      
+    <label *ngIf="validPhone.errors?.['pattern']">מספר לא תקין</label>      
+  </div>
+  </mat-form-field>
+  <br>
+  <!--  -->
+  <mat-form-field appearance="fill"  >    
+    <mat-label>שנת לידה</mat-label>
+    <input matInput  [(ngModel)]="newMember.yearBorn" name="yearBorn" id="yearBorn" required>
+  </mat-form-field>
+  <br>
+  <mat-form-field appearance="fill"  >    
+    <mat-label>מייל </mat-label>
+    <input matInput [(ngModel)]="newMember.mail" name="mail" id="mail"
+    #validGmail="ngModel"   pattern="^[a-zA-Z0-9._%+-]+@[^\s@]+\.[^\s@]{2,}$">
+    <div class="err" *ngIf="validGmail.errors && (validGmail.dirty||validGmail.touched)">
+      <label *ngIf="validGmail.errors?.['pattern']">מייל לא תקין</label>      
+    </div>
+  </mat-form-field>
+  <br>
+  <mat-form-field appearance="fill" >    
+    <mat-label>כתובת</mat-label>
+    <input matInput [(ngModel)]="newMember.address" name="address" id="address">
+  </mat-form-field>
+  <br>
+  <mat-form-field appearance="fill" >    
+    <mat-label>סיסמה</mat-label>
+    <input matInput type="password"  [(ngModel)]="newMember.password" name="password" id="password" required
+    minlength="8" maxlength="20" #validPassword="ngModel"  >
+    <div class="err" *ngIf="validPassword.errors && (validPassword.dirty||validPassword.touched)">
+     <div *ngIf="validPassword.errors?.['required']"><label>שדה זה חובה</label><br></div>
+     <label *ngIf="validPassword.errors?.['minlength']">סיסמה מינימום 8 תוים</label><br>
+     <label *ngIf="validPassword.errors?.['maxlength']">סיסמה מקסימום 20 תוים</label>      
+ </div>
+  </mat-form-field>
+  <br>
+  <mat-form-field appearance="fill" >
+    <mat-label>מגדר</mat-label>
+    <mat-select required [(ngModel)]="whichGender" name="gender" id="gender">
+      <mat-option value= 1>ז</mat-option>
+      <mat-option value= 0>נ</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <br>
+  <button mat-raised-button type="submit" class="demo-button" [disabled]="!myForm.valid">
+    שלח מועמדות   </button>
+</form> 
+
+</div>
+</form>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal) {
+   modal.style.display = "none";
+}
+}
+</script>

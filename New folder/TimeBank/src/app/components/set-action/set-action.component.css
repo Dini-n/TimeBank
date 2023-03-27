@@ -1,0 +1,19 @@
+app-action-detiels{
+    flex: 1 1 30%;
+    font-family: Heebo;
+  margin: 5px;
+
+}
+.column1 {
+  float: left;
+  padding: 10px;
+}
+h1{
+  font-family: Heebo;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

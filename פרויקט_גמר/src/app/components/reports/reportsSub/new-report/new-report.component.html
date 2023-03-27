@@ -1,0 +1,47 @@
+<div>
+    שלום ל {{this.user.currentMember.name}}
+   </div>
+   <h2>הוסף דיווח</h2>
+   <form #myForm="ngForm" (ngSubmit)="onSave()">
+     <!-- הכנס קטגוריה -->
+   <mat-form-field appearance="fill">    
+       <mat-label>בחר קטגוריה </mat-label>
+           <mat-select required [(ngModel)]="categoryName"  #categoryVal="ngModel" name="name" id="name">
+             <div *ngFor="let cat of listCategory">
+               <mat-option value= {{cat.name}}>{{cat.name}}</mat-option>
+             </div>
+           </mat-select>
+           <div class="err" *ngIf="categoryVal.errors && (categoryVal.dirty||categoryVal.touched)">
+             <div *ngIf="categoryVal.errors?.required"><label>שדה זה חובה</label><br></div>
+           </div>
+         
+    </mat-form-field> <br>
+    <mat-form-field appearance="fill">    
+     <mat-label>משך זמן הפעולה</mat-label>
+         <input matInput required [(ngModel)]="report.time" name="time" id="time" type="time" required 
+         #time="ngModel">
+         <div class="err" *ngIf="time.errors && (time.dirty||time.touched)">
+           <div *ngIf="time.errors?.required"><label>שדה זה חובה</label><br></div>
+         </div>
+       </mat-form-field> <br>
+   <mat-form-field appearance="fill">    
+     <mat-label>פלאפון מקבל הפעולה</mat-label>
+         <input matInput required [(ngModel)]="receiver.phone" name="receiverPhone" id="receiverPhone"
+         #validPhone="ngModel" minlength="9" maxlength="10" pattern="^0\d{8}|^05\d{8}$">
+         <div class="err" *ngIf="validPhone.errors && (validPhone.dirty||validPhone.touched)">
+         <div *ngIf="validPhone.errors?.required"><label>שדה זה חובה</label><br></div>
+         <label *ngIf="validPhone.errors?.minlength">סיסמה מינימום 9 ספרות</label><br>
+         <label *ngIf="validPhone.errors?.maxlength">סיסמה מקסימום 10 ספרות</label>      
+         <label *ngIf="validPhone.errors?.pattern">מספר לא תקין</label>        
+   </div>
+    </mat-form-field> <br>
+   <mat-form-field appearance="fill">    
+     <mat-label>הערות</mat-label>
+         <input matInput [(ngModel)]="report.note" name="note" id="note">
+   </mat-form-field> <br>
+    
+   <button mat-raised-button type="submit" class="demo-button" [disabled]="!myForm.valid">
+      שלח  
+   </button>
+   </form> 
+   

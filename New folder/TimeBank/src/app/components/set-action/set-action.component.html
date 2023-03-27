@@ -1,0 +1,9 @@
+<h1>פעילות בבנק</h1>
+<br>
+<div *ngFor="let item of keys">  
+  <div *ngFor="let cat of categories.get(item)"  >
+    <div class="column1">
+    <app-action-detiels [category]="cat" ></app-action-detiels></div>
+  </div> 
+</div>
+<router-outlet></router-outlet>

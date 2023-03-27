@@ -1,0 +1,32 @@
+
+ <!-- כפתורי הסרה והוספה -->
+ <div class="demo-button-container">
+    <!-- מוסיף קטגוריה לבנק -->
+     <button mat-raised-button (click)="addData()" class="demo-button">
+     הוסף קטגוריה
+    </button> 
+    <!-- מוריד קטגוריה -->
+    <!-- שורה לא ברורה - [disabled]="!dataToDisplay.length" -->
+    <button mat-raised-button  (click)="removeData()" class="demo-button"> 
+     הורד קטגוריה
+    </button>
+  </div>
+  <br>
+ <h1>קטגוריה הבנק</h1>               
+ <br>
+ <br>
+ <table>
+    <tr id="amuda">
+        <td>שם קטגוריה</td>
+        <td>קטגורית אב</td>
+        <td>מיועד לקבוצה?</td>
+        <td>כמות חברים שנתנו אישור</td>
+       
+    </tr>                       
+    <tr *ngFor="let cat of category">
+        <td> {{cat.name}} </td>
+        <td>{{cat.categoryId}}</td>
+        <td>{{cat.approved}}</td>
+        <td>{{cat.amountPeopleOffered}}</td>
+    </tr>
+</table>  

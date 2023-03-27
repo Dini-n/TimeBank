@@ -1,0 +1,31 @@
+<!-- public date:Date,
+    public time:Time,
+    public note:string,
+    public receiver:Receiver,
+    public recieverApproved:boolean -->
+    <h1>פעילותך בבנק</h1>
+    <br>
+    <h1>נתינות בזמן האחרון</h1>
+    <br>
+    <div *ngFor="let cat of categoryMember">
+      <h1> {{cat.category.name}}</h1>
+    <table >
+      <tr id="amuda">
+        <td >תאריך הפעולה</td>
+        <td>משך זמן הפעולה</td>
+        <td>הערות</td>
+        <td>שם המקבל</td>
+        <td>פלאפון המקבל</td>
+        <td>פעולה אושרה?</td>
+      </tr>
+        <tr *ngFot="let rep of cat.reports">
+          <td>{{rep.date}} </td>
+          <td>{{rep.time}}</td>
+          <td>{{rep.note}}</td>
+          <td>{{rep.receiver.name}}</td>
+          <td>{{rep.receiver.phone}}</td>
+          <td>{{rep.recieverApproved}}</td>
+      </tr>
+    
+    </table>  </div>
+    

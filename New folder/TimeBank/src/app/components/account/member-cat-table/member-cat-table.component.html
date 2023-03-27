@@ -1,0 +1,18 @@
+
+<table>
+    <tr id="amuda">
+        <td>שם קטגוריה</td>
+        <td>קטגורית אב</td>
+        <td>מיועד לקבוצה?</td>
+        <td>כמות אפשרית מינימלית</td>
+        <td>כמות אפשרית מקסימלית</td>
+        <td>אושר?</td>
+        <td>כמות חברים שנתנו אישור</td>
+       
+    </tr>                       
+    <tr *ngFor="let cat of categories">
+        <td> {{cat.category.name}} </td>
+        <td>{{cat.category.categoryId}}</td>
+        <td>{{cat.category.approved}}</td>
+        <td>{{cat.category.amountPeopleOffered}}</td>
+    </tr>

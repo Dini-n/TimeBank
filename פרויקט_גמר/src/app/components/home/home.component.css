@@ -1,0 +1,12 @@
+app-new-member{
+   margin: auto; 
+   direction:rtl;
+   display: flex;
+}
+.home {
+   background-image: url("../../../assets/בנק הזמן.png");
+   background-attachment:fixed;
+   background-repeat: no-repeat;
+   background-size:auto 100%;
+   background-position:center;
+}

@@ -1,0 +1,59 @@
+body{
+    direction: rtl;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #ffffff;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #000000;
+    /* text-align: center; */
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+    font-family: Heebo;
+    direction: rtl;
+    justify-content: center;
+  }
+  header .topnav{
+    inline-size: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: 40;
+    transition: top linear 0.15s;
+    top: 20px;
+    background-color: rgb(209, 151, 182);
+    left: 0;
+    right: 0;
+    /* padding: 10px; */
+    text-align: center;
+    /* font-weight: lighter;
+    margin: 0 auto; */
+}
+  
+  .topnav a:hover {
+    border-bottom: 3px solid rgb(231, 81, 161);
+  }
+  body{
+    direction: rtl;
+    font-family: Heebo;
+  }
+  .topnav a.active {
+    border-bottom: 3px solid rgb(231, 81, 161);
+  }
+  /* .home {
+    background-image: url('src\app\pi.png');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size:auto 100%;
+    background-position:center;
+ } */

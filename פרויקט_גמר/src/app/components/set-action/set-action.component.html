@@ -1,0 +1,14 @@
+
+<h1>פעילות בבנק</h1>
+<br>
+  <!-- <div>שם חבר</div> -->
+  <br>
+ 
+<div *ngFor="let item of keys" class="cats">  
+<div class="container">
+  <div *ngFor="let cat of categories.get(item)"  >
+    <app-action-detiels [category]="cat" ></app-action-detiels>
+  </div> 
+</div>
+</div>
+<router-outlet></router-outlet>

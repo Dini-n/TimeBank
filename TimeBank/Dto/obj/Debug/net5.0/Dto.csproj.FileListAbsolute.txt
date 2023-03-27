@@ -1,0 +1,36 @@
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\Dto\bin\Debug\net5.0\Dto.deps.json
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\Dto\bin\Debug\net5.0\Dto.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\Dto\bin\Debug\net5.0\ref\Dto.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\Dto\bin\Debug\net5.0\Dto.pdb
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\Dto\obj\Debug\net5.0\Dto.csproj.AssemblyReference.cache
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\Dto\obj\Debug\net5.0\Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\Dto\obj\Debug\net5.0\Dto.AssemblyInfoInputs.cache
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\Dto\obj\Debug\net5.0\Dto.AssemblyInfo.cs
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\Dto\obj\Debug\net5.0\Dto.csproj.CoreCompileInputs.cache
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\Dto\obj\Debug\net5.0\Dto.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\Dto\obj\Debug\net5.0\ref\Dto.dll
+C:\Users\This_user\Desktop\הנדסאים\פרויקט גמר\server\TimeBank\Dto\obj\Debug\net5.0\Dto.pdb
+E:\TimeBank\Dto\bin\Debug\net5.0\Dto.deps.json
+E:\TimeBank\Dto\bin\Debug\net5.0\Dto.dll
+E:\TimeBank\Dto\bin\Debug\net5.0\ref\Dto.dll
+E:\TimeBank\Dto\bin\Debug\net5.0\Dto.pdb
+E:\TimeBank\Dto\obj\Debug\net5.0\Dto.csproj.AssemblyReference.cache
+E:\TimeBank\Dto\obj\Debug\net5.0\Dto.GeneratedMSBuildEditorConfig.editorconfig
+E:\TimeBank\Dto\obj\Debug\net5.0\Dto.AssemblyInfoInputs.cache
+E:\TimeBank\Dto\obj\Debug\net5.0\Dto.AssemblyInfo.cs
+E:\TimeBank\Dto\obj\Debug\net5.0\Dto.csproj.CoreCompileInputs.cache
+E:\TimeBank\Dto\obj\Debug\net5.0\Dto.dll
+E:\TimeBank\Dto\obj\Debug\net5.0\ref\Dto.dll
+E:\TimeBank\Dto\obj\Debug\net5.0\Dto.pdb
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\Dto\bin\Debug\net5.0\Dto.deps.json
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\Dto\bin\Debug\net5.0\Dto.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\Dto\bin\Debug\net5.0\ref\Dto.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\Dto\bin\Debug\net5.0\Dto.pdb
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\Dto\obj\Debug\net5.0\Dto.csproj.AssemblyReference.cache
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\Dto\obj\Debug\net5.0\Dto.GeneratedMSBuildEditorConfig.editorconfig
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\Dto\obj\Debug\net5.0\Dto.AssemblyInfoInputs.cache
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\Dto\obj\Debug\net5.0\Dto.AssemblyInfo.cs
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\Dto\obj\Debug\net5.0\Dto.csproj.CoreCompileInputs.cache
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\Dto\obj\Debug\net5.0\Dto.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\Dto\obj\Debug\net5.0\ref\Dto.dll
+D:\מסלול\‏‏שנה ב\פרויקט בנק הזמן\TimeBank\Dto\obj\Debug\net5.0\Dto.pdb
