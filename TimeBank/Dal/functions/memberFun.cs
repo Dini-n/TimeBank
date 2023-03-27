@@ -10,7 +10,6 @@ namespace Dal.functions
     public class memberFun
     {   // משתנה שמכיל את המסד
         public static Models.TimeBankContext db = new Models.TimeBankContext();
-        
         /*-------------------כשזה יהיה יותר יעיל נעשה דיקשנרי של גישה לפי טלפון------------*/
 
         // פונקציה שמחזירה את החברים מהמסד בסוג המסד
@@ -41,6 +40,11 @@ namespace Dal.functions
                 db.MemberCategories.Include(m => m.Category).ToList();
 
 
+
+                newm.MemberCategories = null;
+                newm.Reports = null;
+                newm.ReportsDetails = null;
+                newm.WaitingLists = null;
                 db.Members.Add(newm);
                 
                 db.SaveChanges();
