@@ -54,6 +54,8 @@ namespace Bll
         {
             List<Dto.dtoClasses.member> lm = new List<Dto.dtoClasses.member>();
             microMemberList.ForEach(m => lm.Add(convertFromMicToDto(m)));
+            int i = 0; 
+
             return lm;
         }
     }
