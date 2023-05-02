@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ly/u+kRx9G8Bala+I3lpm9/Cm285em2GvNWqHuo2AOscmEHvRvpto2Pk/KCvi6M0UyIXJG/i0UCVCJn2CxeDNg==",
+  "dgSpecHash": "GsO8FlquE5yQ96Wtsf+NJ/jljAs8anJXI+Y1upMIjH7vzHVQe210V65fL6qidTp6vCbA2cvzLoGIsDCYvn/Qcg==",
   "success": true,
-  "projectFilePath": "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\TimeBank\\Dal\\Dal.csproj",
+  "projectFilePath": "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\server\\TimeBank\\Dal\\Dal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\This_user\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\This_user\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

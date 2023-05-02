@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Zy9Y5qYAlL5OvxahPT2AGuR2Hr/V2hfqYoy4/kRm+uum7qM2B1qSCDcDhWY+ZpEWgV2Kjw1UlwRkegIlWp0Ryg==",
+  "dgSpecHash": "m+U15W+Hf3hvofGnBrOA/4diOaagInAL91NJODIlOsEji+1i7GG/aOK40cMugLIZAMydaSaRmo46xai/q5XDSg==",
   "success": true,
-  "projectFilePath": "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\TimeBank\\TimeBank\\TimeBank.csproj",
+  "projectFilePath": "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\server\\TimeBank\\TimeBank\\TimeBank.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\This_user\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\TimeBank\\TimeBank\\TimeBank.csproj": {}
+    "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\server\\TimeBank\\TimeBank\\TimeBank.csproj": {}
   },
   "projects": {
-    "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\TimeBank\\Bll\\Bll.csproj": {
+    "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\server\\TimeBank\\Bll\\Bll.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\TimeBank\\Bll\\Bll.csproj",
+        "projectUniqueName": "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\server\\TimeBank\\Bll\\Bll.csproj",
         "projectName": "Bll",
-        "projectPath": "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\TimeBank\\Bll\\Bll.csproj",
+        "projectPath": "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\server\\TimeBank\\Bll\\Bll.csproj",
         "packagesPath": "C:\\Users\\This_user\\.nuget\\packages\\",
-        "outputPath": "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\TimeBank\\Bll\\obj\\",
+        "outputPath": "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\server\\TimeBank\\Bll\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -35,11 +35,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\TimeBank\\Dal\\Dal.csproj": {
-                "projectPath": "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\TimeBank\\Dal\\Dal.csproj"
+              "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\server\\TimeBank\\Dal\\Dal.csproj": {
+                "projectPath": "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\server\\TimeBank\\Dal\\Dal.csproj"
               },
-              "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\TimeBank\\Dto\\Dto.csproj": {
-                "projectPath": "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\TimeBank\\Dto\\Dto.csproj"
+              "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\server\\TimeBank\\Dto\\Dto.csproj": {
+                "projectPath": "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\server\\TimeBank\\Dto\\Dto.csproj"
               }
             }
           }
@@ -72,14 +72,14 @@
         }
       }
     },
-    "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\TimeBank\\Dal\\Dal.csproj": {
+    "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\server\\TimeBank\\Dal\\Dal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\TimeBank\\Dal\\Dal.csproj",
+        "projectUniqueName": "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\server\\TimeBank\\Dal\\Dal.csproj",
         "projectName": "Dal",
-        "projectPath": "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\TimeBank\\Dal\\Dal.csproj",
+        "projectPath": "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\server\\TimeBank\\Dal\\Dal.csproj",
         "packagesPath": "C:\\Users\\This_user\\.nuget\\packages\\",
-        "outputPath": "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\TimeBank\\Dal\\obj\\",
+        "outputPath": "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\server\\TimeBank\\Dal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -151,14 +151,14 @@
         }
       }
     },
-    "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\TimeBank\\Dto\\Dto.csproj": {
+    "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\server\\TimeBank\\Dto\\Dto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\TimeBank\\Dto\\Dto.csproj",
+        "projectUniqueName": "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\server\\TimeBank\\Dto\\Dto.csproj",
         "projectName": "Dto",
-        "projectPath": "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\TimeBank\\Dto\\Dto.csproj",
+        "projectPath": "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\server\\TimeBank\\Dto\\Dto.csproj",
         "packagesPath": "C:\\Users\\This_user\\.nuget\\packages\\",
-        "outputPath": "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\TimeBank\\Dto\\obj\\",
+        "outputPath": "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\server\\TimeBank\\Dto\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -212,14 +212,14 @@
         }
       }
     },
-    "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\TimeBank\\TimeBank\\TimeBank.csproj": {
+    "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\server\\TimeBank\\TimeBank\\TimeBank.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\TimeBank\\TimeBank\\TimeBank.csproj",
+        "projectUniqueName": "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\server\\TimeBank\\TimeBank\\TimeBank.csproj",
         "projectName": "TimeBank",
-        "projectPath": "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\TimeBank\\TimeBank\\TimeBank.csproj",
+        "projectPath": "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\server\\TimeBank\\TimeBank\\TimeBank.csproj",
         "packagesPath": "C:\\Users\\This_user\\.nuget\\packages\\",
-        "outputPath": "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\TimeBank\\TimeBank\\obj\\",
+        "outputPath": "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\server\\TimeBank\\TimeBank\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -243,14 +243,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\TimeBank\\Bll\\Bll.csproj": {
-                "projectPath": "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\TimeBank\\Bll\\Bll.csproj"
+              "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\server\\TimeBank\\Bll\\Bll.csproj": {
+                "projectPath": "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\server\\TimeBank\\Bll\\Bll.csproj"
               },
-              "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\TimeBank\\Dal\\Dal.csproj": {
-                "projectPath": "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\TimeBank\\Dal\\Dal.csproj"
+              "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\server\\TimeBank\\Dal\\Dal.csproj": {
+                "projectPath": "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\server\\TimeBank\\Dal\\Dal.csproj"
               },
-              "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\TimeBank\\Dto\\Dto.csproj": {
-                "projectPath": "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\TimeBank\\Dto\\Dto.csproj"
+              "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\server\\TimeBank\\Dto\\Dto.csproj": {
+                "projectPath": "D:\\מסלול\\‏‏שנה ב\\פרויקט בנק הזמן\\server\\TimeBank\\Dto\\Dto.csproj"
               }
             }
           }
