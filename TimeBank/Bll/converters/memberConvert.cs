@@ -23,8 +23,8 @@ namespace Bll
             m.remainingHours.minutes = microMember.RemainingHours.Minutes;
             m.active = microMember.Active;
             m.toCheck = microMember.ToCheck;
-            m.Categories =converters.categoryMemberConvert.ConvertListFromMicToDto( microMember.MemberCategories.ToList());
-    
+            m.Categories = converters.categoryMemberConvert.ConvertListFromMicToDto(microMember.MemberCategories.ToList());
+
             return m;
         }
         // (ממנו למיקרוסופט (חבר
@@ -42,10 +42,7 @@ namespace Bll
             microMember.Active  = m.active;
             microMember.ToCheck = m.toCheck;
             microMember.MemberCategories = converters.categoryMemberConvert.ConvertListFromDtoToMic(m.Categories);
-            microMember.MemberCategories = null;
-            microMember.Reports = null;
-            microMember.ReportsDetails = null;
-            microMember.WaitingLists = null;
+  
             return microMember;
         }
         /*public static Dal.Models.Member updteChildren()
