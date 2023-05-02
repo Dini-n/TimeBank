@@ -47,14 +47,13 @@ namespace Bll
         }
         /*public static Dal.Models.Member updteChildren()
         {
-
+        jkgtfdrjlkhutgdrtfhkjlhgtffjlkhg
         }*/
         // ממיר רשימה של מיקרוסופט אלנו
         public static List<Dto.dtoClasses.member> ConvertListFromMicToDto(List<Dal.Models.Member> microMemberList)
         {
             List<Dto.dtoClasses.member> lm = new List<Dto.dtoClasses.member>();
             microMemberList.ForEach(m => lm.Add(convertFromMicToDto(m)));
-            int i = 0; 
 
             return lm;
             //asdf;kljuyhtgrfgh
